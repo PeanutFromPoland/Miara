@@ -1,0 +1,1057 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-11-06T08:12:03.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="miara-makiety" name="Makiety">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="1980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cmiara-makiety_2" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#e9e1d8;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1390" height="1980" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_3" value="MIARA  /  PROTOTYP UI" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=27;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_4" value="Edytowalne makiety pięciu widoków głównych oraz szczegółów przepisu" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="59" width="800" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_5" value="KONCEPCJA 02" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="27" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_6" value="01 / Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_7" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="128" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_8" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_9" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_10" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_11" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_12" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_13" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="10" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_14" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_15" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_16" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_17" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_18" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_19" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_20" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_21" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_22" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_23" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_24" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_25" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="8" y="46" width="374" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_26" value="SOBĄ / 6 LISTOPADA" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="69" width="280" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_27" value="Dziś jest&lt;br&gt;dobry dzień" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=39;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="105" width="320" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_28" value="na jedzenie." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=38;fontColor=#fffaf2;fontStyle=2;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="208" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_29" value="01 / BILANS DNIA" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="310" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_30" value="PLANOWANE" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="268" y="310" width="90" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_31" value="1030" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=55;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="336" width="176" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_32" value="z 2000&lt;br&gt;kcal na dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="214" y="347" width="132" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_33" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="403" width="330" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_34" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="403" width="171" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_35" value="52% celu w planie · 420 kcal w dzienniku" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="420" width="330" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_36" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="451" width="330" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_37" value="50 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="461" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_38" value="Białko" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="489" width="105" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_39" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="515" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_40" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="515" width="50" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_41" value="128 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="140" y="461" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_42" value="Węglowodany" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="140" y="489" width="105" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_43" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="140" y="515" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_44" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="140" y="515" width="58" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_45" value="34 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="250" y="461" width="107" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_46" value="Tłuszcze" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="250" y="489" width="105" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_47" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="250" y="515" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_48" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#9470b0;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="250" y="515" width="38" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_49" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="541" width="330" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_50" value="↗" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=26;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="45" y="555" width="24" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_51" value="Co mogę dziś zjeść?" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=14;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="80" y="549" width="247" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_52" value="Odkryj przepis dopasowany do Ciebie" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="80" y="576" width="247" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_53" value="Na dziś zapisane" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="629" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_54" value="Cały plan ↗" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="278" y="635" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_55" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="672" width="330" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_56" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=#2a2031;strokeWidth=2;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="30" y="684" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_57" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="36" y="690" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_58" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ae4a48;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="44" y="692" width="7" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_59" value="Owsianka z malinami" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="83" y="682" width="185" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_60" value="Śniadanie · 12 min" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="83" y="704" width="193" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_61" value="420 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_7">
+          <mxGeometry x="283" y="691" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_62" value="02 / Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_63" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="128" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_64" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_65" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_66" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_67" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_68" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_69" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_70" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_71" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="84" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_72" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_73" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_74" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_75" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_76" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_77" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_78" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_79" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_80" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_81" value="02 / ODKRYWAJ" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="63" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_82" value="Przepisy," style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="88" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_83" value="które pasują." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#fa6947;fontStyle=2;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="128" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_84" value="Otwórz, porównaj, wybierz po swojemu." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="182" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_85" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="224" width="330" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_86" value="Danie lub składnik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="42" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_87" value="Szukaj" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="284" y="224" width="76" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_88" value="Wszystkie" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="284" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_89" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="307" width="61" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_90" value="Do 15 min" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="104" y="284" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_91" value="Więcej białka" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="185" y="284" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_92" value="Roślinne" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="292" y="284" width="74" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_93" value="4 PROPOZYCJE · DANE DEMONSTRACYJNE" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="326" width="310" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_94" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="356" width="330" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_95" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#e3b891;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="356" width="113" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_96" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="40.0" y="397.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_97" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="51.16" y="408.66" width="70.68" height="70.68" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_98" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ae4a48;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="66.04" y="425.4" width="11.16" height="11.16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_99" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e5c472;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="97.66" y="453.3" width="13.95" height="13.95" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_100" value="PROPOZYCJA" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="39" y="365" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_101" value="№ 01" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#fa6947;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="371" width="185" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_102" value="Owsianka z malinami" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=18;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="396" width="190" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_103" value="12 min / 18 g białka / 1 porcja" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="442" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_104" value="≈ 420 kcal / porcję" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="490" width="156" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_105" value="Zobacz ›" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="315" y="490" width="35" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_106" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="535" width="330" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_107" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#bfc5a1;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="535" width="113" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_108" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="40.0" y="576.5" width="93" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_109" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#c9b885;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="51.16" y="587.66" width="70.68" height="70.68" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_110" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#759866;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="66.04" y="604.4" width="11.16" height="11.16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_111" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d29858;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="97.66" y="632.3" width="13.95" height="13.95" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_112" value="PROPOZYCJA" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="39" y="544" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_113" value="№ 02" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#fa6947;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="550" width="185" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_114" value="Bowl z tofu i ryżem" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=18;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="575" width="190" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_115" value="25 min / 32 g białka / 1 porcja" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="621" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_116" value="≈ 610 kcal / porcję" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="156" y="669" width="156" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_117" value="Zobacz ›" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="315" y="669" width="35" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_118" value="Wyniki i wartości są przykładowe." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_63">
+          <mxGeometry x="30" y="716" width="320" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_119" value="03 / Szczegóły przepisu" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="90" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_120" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="128" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_121" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_122" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_123" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_124" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_125" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_126" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_127" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_128" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="84" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_129" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_130" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_131" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_132" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_133" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_134" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_135" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_136" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_137" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_138" value="‹ Wróć do przepisów" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="64" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_139" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#e3b891;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="101" width="330" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_140" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="112.5" y="117.0" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_141" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="132.3" y="136.8" width="125.4" height="125.4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_142" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ae4a48;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="158.7" y="166.5" width="19.8" height="19.8" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_143" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e5c472;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="214.8" y="216.0" width="24.75" height="24.75" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_144" value="PRZEPIS DEMONSTRACYJNY" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="39" y="110" width="116" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_145" value="PRZEPIS / ŚNIADANIE" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="309" width="315" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_146" value="Owsianka z malinami" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=31;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="334" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_147" value="Proste śniadanie z dużą ilością węglowodanów" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="393" width="327" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_148" value="12 min" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="445" width="55" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_149" value="1 porcja" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="91" y="445" width="65" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_150" value="4 składniki" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="162" y="445" width="83" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_151" value="Zgodny z ustawionymi wykluczeniami" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="482" width="239" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_152" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#d9c6e9;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="525" width="330" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_153" value="WARTOŚCI / 1 PORCJA" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="45" y="540" width="220" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_154" value="SZACUNEK" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="272" y="540" width="72" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_155" value="≈ 420 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=41;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="45" y="565" width="275" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_156" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="45" y="630" width="300" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_157" value="18 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=18;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="45" y="645" width="96" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_158" value="Białko" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="45" y="673" width="96" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_159" value="56 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=18;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="145" y="645" width="96" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_160" value="Węglowodany" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="145" y="673" width="96" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_161" value="13 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=18;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="245" y="645" width="96" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_162" value="Tłuszcz" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="245" y="673" width="96" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_163" value="Składniki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=24;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="30" y="724" width="220" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_164" value="1 porcja" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=9;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_120">
+          <mxGeometry x="296" y="724" width="64" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_165" value="04 / Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1042" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_166" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1080" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_167" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_168" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_169" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_170" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_171" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_172" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_173" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_174" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_175" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_176" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="158" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_177" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_178" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_179" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_180" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_181" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_182" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_183" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_184" value="03 / PLAN" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="63" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_185" value="Ułóż swój" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="88" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_186" value="dzień." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#fa6947;fontStyle=2;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="128" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_187" value="Posiłki czekają tutaj. Ty decydujesz o kolejności." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="182" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_188" value="Pn" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_189" value="2" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_190" value="Wt" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="77" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_191" value="3" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="77" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_192" value="Śr" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="124" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_193" value="4" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="124" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_194" value="Cz" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="171" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_195" value="5" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="171" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_196" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="218" y="230" width="43" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_197" value="Pt" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="218" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_198" value="6" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="218" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_199" value="So" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="265" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_200" value="7" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="265" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_201" value="Nd" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="312" y="231" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_202" value="8" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=13;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="312" y="252" width="43" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_203" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="303" width="330" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_204" value="ZAPLANOWANA ENERGIA" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="47" y="320" width="250" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_205" value="1030 / 2000 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=27;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="47" y="350" width="298" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_206" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#e2bf55;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="47" y="401" width="292" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_207" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="47" y="401" width="150" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_208" value="Białko 50 g · Węglowodany 128 g · Tłuszcz 34 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=8;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="47" y="416" width="292" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_209" value="Posiłki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=24;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="466" width="190" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_210" value="Dodaj przepis +" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="260" y="473" width="100" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_211" value="ŚNIADANIE" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="517" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_212" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="537" width="330" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_213" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=#2a2031;strokeWidth=2;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="549" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_214" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="36" y="555" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_215" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ae4a48;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="44" y="557" width="7" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_216" value="Owsianka z malinami" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="83" y="547" width="185" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_217" value="1 porcja · 420 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="83" y="569" width="193" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_218" value="×" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=17;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="331" y="555" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_219" value="OBIAD" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="617" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_220" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="637" width="330" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_221" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=#2a2031;strokeWidth=2;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="649" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_222" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="36" y="655" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_223" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#759866;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="44" y="657" width="7" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_224" value="Bowl z tofu i ryżem" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="83" y="647" width="185" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_225" value="1 porcja · 610 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="83" y="669" width="193" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_226" value="×" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=17;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="331" y="655" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_227" value="Plan pokazuje zamiar. Faktyczne spożycie zapisujesz w Dzienniku." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_166">
+          <mxGeometry x="30" y="711" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_228" value="05 / Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1042" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_229" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1080" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_230" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_231" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_232" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_233" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_234" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_235" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_236" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_237" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_238" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_239" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_240" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_241" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="232" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_242" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_243" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_244" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_245" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_246" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_247" value="04 / DZIENNIK" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="63" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_248" value="Zjedzone." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="88" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_249" value="Zapisane." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#fa6947;fontStyle=2;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="128" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_250" value="Tu liczymy tylko to, co rzeczywiście zjedzono." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="182" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_251" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#d9c6e9;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="223" width="330" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_252" value="Dodaj z planu" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=15;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="46" y="237" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_253" value="1 do zapisania" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="262" y="235" width="84" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_254" value="Bowl z tofu i ryżem     ▾" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="46" y="278" width="296" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_255" value="Oznacz jako zjedzone" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="46" y="339" width="296" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_256" value="SPOŻYCIE DZISIAJ" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#706778;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="422" width="190" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_257" value="420 kcal" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="447" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_258" value="Cel 2000 kcal" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=8;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="271" y="449" width="88" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_259" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="505" width="330" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_260" value="18 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="517" width="108" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_261" value="Białko" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="546" width="108" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_262" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="570" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_263" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="570" width="18" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_264" value="56 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="140" y="517" width="108" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_265" value="Węglowodany" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="140" y="546" width="108" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_266" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="140" y="570" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_267" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="140" y="570" width="25" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_268" value="13 g" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="250" y="517" width="108" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_269" value="Tłuszcze" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="250" y="546" width="108" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_270" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ded5cd;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="250" y="570" width="100" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_271" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#9470b0;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="250" y="570" width="20" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_272" value="Zapisane posiłki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=24;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="603" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_273" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="650" width="330" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_274" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff5dc;strokeColor=#2a2031;strokeWidth=2;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="662" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_275" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#cdaa80;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="36" y="668" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_276" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ae4a48;strokeColor=none;strokeWidth=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="44" y="670" width="7" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_277" value="Owsianka z malinami" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="83" y="660" width="185" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_278" value="Śniadanie · 1 porcja" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="83" y="682" width="193" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_279" value="×" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=17;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="331" y="668" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_280" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="30" y="728" width="4" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_281" value="Odczyt etykiety aparatem wymaga osobnej implementacji." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_229">
+          <mxGeometry x="40" y="725" width="320" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_282" value="06 / Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=19;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1042" width="390" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_283" value="" style="group;container=1;collapsible=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1080" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_284" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#100d15;strokeColor=#100d15;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="0" y="0" width="390" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_285" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=#f4eee5;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="8" y="8" width="374" height="834" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_286" value="9:41" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="29" y="17" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_287" value="••• ▰" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=right;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="316" y="17" width="47" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_288" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#2a2031;strokeColor=#2a2031;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="8" y="768" width="374" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_289" value="⌂" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="10" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_290" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="10" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_291" value="⌕" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="84" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_292" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="84" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_293" value="▦" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="158" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_294" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="158" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_295" value="◷" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#c7bac8;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="232" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_296" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#c7bac8;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="232" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_297" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="306" y="768" width="74" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_298" value="◌" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#fffaf2;fontStyle=0;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="306" y="781" width="74" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_299" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=9;fontColor=#fffaf2;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="306" y="808" width="74" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_300" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="141" y="832" width="108" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_301" value="05 / PROFIL" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="63" width="310" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_302" value="Twoja miara," style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="88" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_303" value="Twoje zasady." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=36;fontColor=#fa6947;fontStyle=2;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="128" width="330" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_304" value="Kilka wskazówek dla agenta. Zawsze możesz je zmienić." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=12;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="182" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_305" value="DZIENNY CEL ENERGII" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Consolas;fontSize=9;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="233" width="300" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_306" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="258" width="330" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_307" value="2000" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=24;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="44" y="268" width="285" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_308" value="Wpisz własny cel. Prototyp nie wyznacza go medycznie." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="324" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_309" value="Zapisz cel" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="373" width="100" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_310" value="Wykluczane składniki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="441" width="310" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_311" value="Wybierz składniki, których agent nie powinien oznaczać jako zgodnych." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="483" width="330" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_312" value="Mleko" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="533" width="61" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_313" value="Gluten" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="100" y="533" width="68" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_314" value="Soja" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=1;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="177" y="533" width="54" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_315" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=1;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="590" width="330" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_316" value="Uwaga o alergiach" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="44" y="602" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_317" value="Brak alergenu w odczytanym składzie nie potwierdza bezpieczeństwa potrawy. Niepełne dane trzeba oznaczać jako niepewne." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=10;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="44" y="623" width="300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_318" value="Jak działa dobór?" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="cmiara-makiety_283">
+          <mxGeometry x="30" y="720" width="300" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-makiety_319" value="Makiety przedstawiają widoczny obszar prototypu HTML. Elementy są osobnymi kształtami draw.io i można je edytować." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1944" width="1240" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="miara-nawigacja" name="Nawigacja">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cmiara-nawigacja_2" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#f4eee5;strokeColor=none;strokeWidth=0;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1320" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_3" value="Miara / przepływ prototypu" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=31;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="40" width="750" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_4" value="Ekrany i główne działania obecne w lokalnym prototypie HTML" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=13;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="88" width="1100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_5" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fa6947;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="65" y="220" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_6" value="Dziś" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="238" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_7" value="Bilans i zapisane posiłki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="78" y="282" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_8" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="315" y="220" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_9" value="Odkrywaj" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="238" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_10" value="Wyszukiwanie i filtry" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="282" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_11" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#d9c6e9;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="565" y="220" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_12" value="Szczegóły" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="578" y="238" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_13" value="Składniki i wartości" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="578" y="282" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_14" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ffd859;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="815" y="220" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_15" value="Plan" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="828" y="238" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_16" value="Zaplanowane posiłki" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="828" y="282" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_17" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#d9c6e9;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="220" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_18" value="Dziennik" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="238" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_19" value="Faktyczne spożycie" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="282" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_20" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#fffaf2;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="315" y="470" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_21" value="Profil" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Georgia;fontSize=23;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="488" width="165" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_22" value="Cel i wykluczenia" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=11;fontColor=#706778;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="532" width="165" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_23" value="Co mogę dziś zjeść?" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;labelBackgroundColor=#f4eee5;" edge="1" parent="1" source="cmiara-nawigacja_5" target="cmiara-nawigacja_8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_24" value="Zobacz" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;labelBackgroundColor=#f4eee5;" edge="1" parent="1" source="cmiara-nawigacja_8" target="cmiara-nawigacja_11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_25" value="Dodaj do planu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;labelBackgroundColor=#f4eee5;" edge="1" parent="1" source="cmiara-nawigacja_11" target="cmiara-nawigacja_14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_26" value="Oznacz jako zjedzone" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;labelBackgroundColor=#f4eee5;" edge="1" parent="1" source="cmiara-nawigacja_14" target="cmiara-nawigacja_17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_27" value="Cel i wykluczenia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2a2031;strokeWidth=2;fontFamily=Segoe UI;fontSize=12;fontColor=#2a2031;labelBackgroundColor=#f4eee5;" edge="1" parent="1" source="cmiara-nawigacja_20" target="cmiara-nawigacja_8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_28" value="" style="rounded=0;arcSize=9;whiteSpace=wrap;html=1;fillColor=#ebe3dc;strokeColor=#fa6947;strokeWidth=2;fontFamily=Segoe UI;fontSize=11;fontColor=#2a2031;fontStyle=0;align=center;verticalAlign=middle;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="65" y="645" width="1185" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="cmiara-nawigacja_29" value="Dolna nawigacja umożliwia przejście między pięcioma głównymi widokami. Szczegóły przepisu otwierają się z ekranu Odkrywaj." style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontFamily=Segoe UI;fontSize=13;fontColor=#2a2031;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="654" width="1150" height="47" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

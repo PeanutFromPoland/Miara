@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4eee5">
+  <title>Miara — prototyp osobistego dietetyka AI</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="stage">
+    <aside class="guide" aria-label="Opis prototypu">
+      <div class="guide-brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span><span>miara<span class="brand-period">.</span></span></div>
+      <div class="guide-kicker">NOTATNIK JEDZENIA / KONCEPCJA 02</div>
+      <h1>Jedzenie<br>ma więcej<br><em>niż liczby.</em></h1>
+      <p>Osobisty dietetyk AI z charakterem redakcyjnego notesu: pomysły, składniki i wartości w jednym miejscu.</p>
+      <ol class="guide-steps">
+        <li><span>01 /</span> Ustaw swój punkt odniesienia</li>
+        <li><span>02 /</span> Przeszukaj przepisy</li>
+        <li><span>03 /</span> Ułóż dzień z wybranych dań</li>
+        <li><span>04 /</span> Zanotuj, co rzeczywiście zjedzono</li>
+      </ol>
+      <div class="guide-note"><span class="note-dot"></span> To prototyp koncepcji. Przepisy i liczby są przykładowe; nic nie trafia na serwer.</div>
+    </aside>
+    <div class="device-wrap">
+      <div class="phone" aria-label="Interaktywny prototyp aplikacji mobilnej">
+        <div class="phone-top"><span id="clock">9:41</span><span class="top-icons" aria-hidden="true">●●● ▰</span></div>
+        <div id="screen" class="screen" aria-live="polite"></div>
+        <nav class="bottom-nav" aria-label="Nawigacja główna">
+          <button type="button" data-nav="home"><span class="nav-icon">⌂</span><span>Dziś</span></button>
+          <button type="button" data-nav="discover"><span class="nav-icon">⌕</span><span>Odkrywaj</span></button>
+          <button type="button" data-nav="plan"><span class="nav-icon">▦</span><span>Plan</span></button>
+          <button type="button" data-nav="diary"><span class="nav-icon">◷</span><span>Dziennik</span></button>
+          <button type="button" data-nav="profile"><span class="nav-icon">◌</span><span>Profil</span></button>
+        </nav>
+        <div class="home-indicator" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

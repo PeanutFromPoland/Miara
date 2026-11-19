@@ -1,0 +1,2160 @@
+{
+  "description": "Przypadki formatów danych. Nie dowodzą zachowania serwera, autoryzacji ani rachunku.",
+  "cases": [
+    {
+      "name": "Zero jest znaną wartością",
+      "schema": "NutrientValues",
+      "valid": true,
+      "value": {
+        "kcal": 0,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      }
+    },
+    {
+      "name": "Nieznane makro pozostaje null",
+      "schema": "NutrientValues",
+      "valid": true,
+      "value": {
+        "kcal": null,
+        "protein_g": null,
+        "carbohydrate_g": null,
+        "fat_g": null
+      }
+    },
+    {
+      "name": "Cel kcal nie może być null",
+      "schema": "ProfileCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "daily_kcal_target": null,
+        "protein_g_target": null,
+        "carbohydrate_g_target": null,
+        "fat_g_target": null,
+        "meals_per_day": 4,
+        "preferences": [],
+        "excluded_products": [],
+        "declared_allergens": []
+      }
+    },
+    {
+      "name": "Klient nie podaje właściciela",
+      "schema": "PlanCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000050",
+        "local_date": "2026-11-16",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "servings": 1,
+        "account_id": "00000000-0000-4000-8000-000000000099"
+      }
+    },
+    {
+      "name": "Klient nie podaje gotowej migawki planu",
+      "schema": "PlanCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000050",
+        "local_date": "2026-11-16",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "servings": 1,
+        "estimate_snapshot": {
+          "quantity": {
+            "amount": 1,
+            "unit": "serving"
+          },
+          "values": {
+            "kcal": 420,
+            "protein_g": 24.5,
+            "carbohydrate_g": null,
+            "fat_g": 12
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ],
+          "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+          "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+          "calculation_version": "calc-0.1",
+          "captured_at": "2026-11-16T10:00:00Z"
+        }
+      }
+    },
+    {
+      "name": "Wymagane ID tworzonego wpisu",
+      "schema": "PlanCreate",
+      "valid": false,
+      "value": {
+        "local_date": "2026-11-16",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "servings": 1
+      }
+    },
+    {
+      "name": "UUID zamiast identyfikatora demonstracyjnego starego szkicu",
+      "schema": "PlanCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000050",
+        "local_date": "2026-11-16",
+        "recipe_version_id": "rv_123",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "servings": 1
+      }
+    },
+    {
+      "name": "PATCH wymaga wersji",
+      "schema": "PlanPatch",
+      "valid": false,
+      "value": {
+        "servings": 2
+      }
+    },
+    {
+      "name": "PATCH wymaga zmiany",
+      "schema": "PlanPatch",
+      "valid": false,
+      "value": {
+        "version": 1
+      }
+    },
+    {
+      "name": "Brak/null celu makro przy edycji ma odrębne znaczenie",
+      "schema": "ProfilePatch",
+      "valid": true,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "version": 1,
+        "protein_g_target": null
+      }
+    },
+    {
+      "name": "Cel obowiązkowy nie może być wyczyszczony",
+      "schema": "ProfilePatch",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000003",
+        "version": 1,
+        "daily_kcal_target": null
+      }
+    },
+    {
+      "name": "Ilość spożycia dodatnia",
+      "schema": "Quantity",
+      "valid": false,
+      "value": {
+        "amount": 0,
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Ujemne kcal są błędne",
+      "schema": "NutrientValues",
+      "valid": false,
+      "value": {
+        "kcal": -1,
+        "protein_g": 0,
+        "carbohydrate_g": 0,
+        "fat_g": 0
+      }
+    },
+    {
+      "name": "Niewłaściwy dzień kalendarzowy",
+      "schema": "PlanCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000050",
+        "local_date": "2026-02-30",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "servings": 1
+      }
+    },
+    {
+      "name": "Znacznik czasu musi być UTC",
+      "schema": "DateTime",
+      "valid": false,
+      "value": "2026-11-16T11:00:00+01:00"
+    },
+    {
+      "name": "Nieznany stan wyszukiwania jest błędny",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "success",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Failed wymaga błędu",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "failed",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Brak trafień jest completed, a nie failed",
+      "schema": "SearchPage",
+      "valid": true,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "completed",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Partial zachowuje wyniki i ostrzeżenie",
+      "schema": "SearchPage",
+      "valid": true,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "partial",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [
+          {
+            "code": "SOURCE_UNAVAILABLE",
+            "message": "Część źródeł jest niedostępna.",
+            "source_url": "https://example.org/unavailable"
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "name": "Running nie ma finished_at",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "running",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": null,
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Running z nieznanym terminem końcowym",
+      "schema": "SearchPage",
+      "valid": true,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "running",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": null,
+        "expires_at": null,
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Zakończone zadanie wymaga daty retencji",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "completed",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": null,
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Manual wymaga podstawy wartości",
+      "schema": "DiaryCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000061",
+        "origin": "manual",
+        "local_date": "2026-11-16",
+        "display_name": "Produkt wpisany ręcznie",
+        "consumed_quantity": {
+          "amount": 75,
+          "unit": "g"
+        }
+      }
+    },
+    {
+      "name": "Plan nie przyjmuje deklarowanych sum klienta",
+      "schema": "DiaryCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000060",
+        "origin": "plan",
+        "local_date": "2026-11-16",
+        "display_name": null,
+        "plan_entry_id": "00000000-0000-4000-8000-000000000050",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "consumed_quantity": {
+          "amount": 1,
+          "unit": "serving"
+        },
+        "nutrition_reference": {
+          "per_amount": 100,
+          "per_unit": "g",
+          "values": {
+            "kcal": 200,
+            "protein_g": 10,
+            "carbohydrate_g": 20,
+            "fat_g": 8
+          }
+        }
+      }
+    },
+    {
+      "name": "Wpis z planu może nie mieć istniejącego planu",
+      "schema": "DiaryCreate",
+      "valid": true,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000060",
+        "origin": "plan",
+        "local_date": "2026-11-16",
+        "display_name": null,
+        "plan_entry_id": null,
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+        "consumed_quantity": {
+          "amount": 1,
+          "unit": "serving"
+        }
+      }
+    },
+    {
+      "name": "Etykieta jest potwierdzanym wpisem ręcznym",
+      "schema": "DiaryCreate",
+      "valid": true,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000061",
+        "origin": "label",
+        "local_date": "2026-11-16",
+        "display_name": "Produkt wpisany ręcznie",
+        "consumed_quantity": {
+          "amount": 75,
+          "unit": "g"
+        },
+        "nutrition_reference": {
+          "per_amount": 100,
+          "per_unit": "g",
+          "values": {
+            "kcal": 200,
+            "protein_g": 10,
+            "carbohydrate_g": 20,
+            "fat_g": 8
+          }
+        }
+      }
+    },
+    {
+      "name": "Authenticated wymaga tokenów",
+      "schema": "RegisterResult",
+      "valid": false,
+      "value": {
+        "status": "authenticated",
+        "account": {
+          "id": "00000000-0000-4000-8000-000000000001",
+          "email": "demo@example.org",
+          "time_zone": "Europe/Warsaw",
+          "status": "active",
+          "created_at": "2026-11-16T10:00:00Z"
+        },
+        "tokens": null
+      }
+    },
+    {
+      "name": "Weryfikacja nie tworzy sesji",
+      "schema": "RegisterResult",
+      "valid": true,
+      "value": {
+        "status": "verification_required",
+        "account": {
+          "id": "00000000-0000-4000-8000-000000000001",
+          "email": "demo@example.org",
+          "time_zone": "Europe/Warsaw",
+          "status": "active",
+          "created_at": "2026-11-16T10:00:00Z"
+        },
+        "tokens": null
+      }
+    },
+    {
+      "name": "Refresh nie wygasa automatycznie",
+      "schema": "SessionTokens",
+      "valid": false,
+      "value": {
+        "session_id": "00000000-0000-4000-8000-000000000002",
+        "token_type": "Bearer",
+        "access_token": "example-access-token-not-a-secret",
+        "access_expires_at": "2026-11-16T10:15:00Z",
+        "refresh_token": "example-refresh-token-not-a-secret",
+        "refresh_expires_at": "2026-12-16T10:00:00Z",
+        "revocation_token": "example-revocation-only-token-not-a-secret"
+      }
+    },
+    {
+      "name": "Usunięcie w delcie nie zawiera rekordu",
+      "schema": "SyncChange",
+      "valid": false,
+      "value": {
+        "action": "delete",
+        "resource_type": "plan_entry",
+        "resource_id": "00000000-0000-4000-8000-000000000051",
+        "version": 2,
+        "deleted_at": "2026-11-16T10:01:00Z",
+        "resource": {
+          "id": "00000000-0000-4000-8000-000000000050",
+          "local_date": "2026-11-16",
+          "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+          "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+          "servings": 1,
+          "estimate_snapshot": {
+            "quantity": {
+              "amount": 1,
+              "unit": "serving"
+            },
+            "values": {
+              "kcal": 420,
+              "protein_g": 24.5,
+              "carbohydrate_g": null,
+              "fat_g": 12
+            },
+            "completeness": {
+              "overall": "partial",
+              "kcal": "complete",
+              "protein_g": "complete",
+              "carbohydrate_g": "missing",
+              "fat_g": "complete"
+            },
+            "missing": [
+              {
+                "field": "carbohydrate_g",
+                "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                "reason": "Brak wartości węglowodanów w źródle."
+              }
+            ],
+            "sources": [
+              {
+                "kind": "nutrition_database",
+                "url": "https://example.org/products/food-1",
+                "provider": "example-provider",
+                "provider_product_id": "food-1",
+                "retrieved_at": "2026-11-16T10:00:00Z",
+                "display_name": "Przykładowy produkt"
+              }
+            ],
+            "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+            "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+            "calculation_version": "calc-0.1",
+            "captured_at": "2026-11-16T10:00:00Z"
+          },
+          "version": 1,
+          "created_at": "2026-11-16T10:00:00Z",
+          "updated_at": "2026-11-16T10:00:00Z"
+        }
+      }
+    },
+    {
+      "name": "Końcowa strona wymaga kursora synchronizacji",
+      "schema": "SyncPage",
+      "valid": false,
+      "value": {
+        "mode": "snapshot",
+        "items": [
+          {
+            "action": "upsert",
+            "resource_type": "profile",
+            "resource_id": "00000000-0000-4000-8000-000000000003",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "daily_kcal_target": 2200,
+              "protein_g_target": null,
+              "carbohydrate_g_target": null,
+              "fat_g_target": null,
+              "meals_per_day": 4,
+              "preferences": [],
+              "excluded_products": [],
+              "declared_allergens": [],
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          },
+          {
+            "action": "upsert",
+            "resource_type": "plan_entry",
+            "resource_id": "00000000-0000-4000-8000-000000000050",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000050",
+              "local_date": "2026-11-16",
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+              "servings": 1,
+              "estimate_snapshot": {
+                "quantity": {
+                  "amount": 1,
+                  "unit": "serving"
+                },
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ],
+                "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+                "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+                "calculation_version": "calc-0.1",
+                "captured_at": "2026-11-16T10:00:00Z"
+              },
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          },
+          {
+            "action": "upsert",
+            "resource_type": "diary_entry",
+            "resource_id": "00000000-0000-4000-8000-000000000060",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000060",
+              "origin": "plan",
+              "local_date": "2026-11-16",
+              "display_name": "Przykładowe danie",
+              "plan_entry_id": "00000000-0000-4000-8000-000000000050",
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "consumed_quantity": {
+                "amount": 1,
+                "unit": "serving"
+              },
+              "nutrition_snapshot": {
+                "quantity": {
+                  "amount": 1,
+                  "unit": "serving"
+                },
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ],
+                "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+                "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+                "calculation_version": "calc-0.1",
+                "captured_at": "2026-11-16T10:00:00Z"
+              },
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          }
+        ],
+        "next_cursor": null,
+        "sync_cursor": null,
+        "as_of": "2026-11-16T10:00:00Z"
+      }
+    },
+    {
+      "name": "Strona pośrednia ma next_cursor",
+      "schema": "SyncPage",
+      "valid": true,
+      "value": {
+        "mode": "snapshot",
+        "items": [
+          {
+            "action": "upsert",
+            "resource_type": "profile",
+            "resource_id": "00000000-0000-4000-8000-000000000003",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000003",
+              "daily_kcal_target": 2200,
+              "protein_g_target": null,
+              "carbohydrate_g_target": null,
+              "fat_g_target": null,
+              "meals_per_day": 4,
+              "preferences": [],
+              "excluded_products": [],
+              "declared_allergens": [],
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          },
+          {
+            "action": "upsert",
+            "resource_type": "plan_entry",
+            "resource_id": "00000000-0000-4000-8000-000000000050",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000050",
+              "local_date": "2026-11-16",
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+              "servings": 1,
+              "estimate_snapshot": {
+                "quantity": {
+                  "amount": 1,
+                  "unit": "serving"
+                },
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ],
+                "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+                "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+                "calculation_version": "calc-0.1",
+                "captured_at": "2026-11-16T10:00:00Z"
+              },
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          },
+          {
+            "action": "upsert",
+            "resource_type": "diary_entry",
+            "resource_id": "00000000-0000-4000-8000-000000000060",
+            "version": 1,
+            "resource": {
+              "id": "00000000-0000-4000-8000-000000000060",
+              "origin": "plan",
+              "local_date": "2026-11-16",
+              "display_name": "Przykładowe danie",
+              "plan_entry_id": "00000000-0000-4000-8000-000000000050",
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "consumed_quantity": {
+                "amount": 1,
+                "unit": "serving"
+              },
+              "nutrition_snapshot": {
+                "quantity": {
+                  "amount": 1,
+                  "unit": "serving"
+                },
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ],
+                "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+                "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+                "calculation_version": "calc-0.1",
+                "captured_at": "2026-11-16T10:00:00Z"
+              },
+              "version": 1,
+              "created_at": "2026-11-16T10:00:00Z",
+              "updated_at": "2026-11-16T10:00:00Z"
+            }
+          }
+        ],
+        "next_cursor": "example-next",
+        "sync_cursor": null,
+        "as_of": "2026-11-16T10:00:00Z"
+      }
+    },
+    {
+      "name": "Profil w delcie nie jest wpisem planu",
+      "schema": "SyncChange",
+      "valid": false,
+      "value": {
+        "action": "upsert",
+        "resource_type": "profile",
+        "resource_id": "00000000-0000-4000-8000-000000000003",
+        "version": 1,
+        "resource": {
+          "id": "00000000-0000-4000-8000-000000000050",
+          "local_date": "2026-11-16",
+          "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+          "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+          "servings": 1,
+          "estimate_snapshot": {
+            "quantity": {
+              "amount": 1,
+              "unit": "serving"
+            },
+            "values": {
+              "kcal": 420,
+              "protein_g": 24.5,
+              "carbohydrate_g": null,
+              "fat_g": 12
+            },
+            "completeness": {
+              "overall": "partial",
+              "kcal": "complete",
+              "protein_g": "complete",
+              "carbohydrate_g": "missing",
+              "fat_g": "complete"
+            },
+            "missing": [
+              {
+                "field": "carbohydrate_g",
+                "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                "reason": "Brak wartości węglowodanów w źródle."
+              }
+            ],
+            "sources": [
+              {
+                "kind": "nutrition_database",
+                "url": "https://example.org/products/food-1",
+                "provider": "example-provider",
+                "provider_product_id": "food-1",
+                "retrieved_at": "2026-11-16T10:00:00Z",
+                "display_name": "Przykładowy produkt"
+              }
+            ],
+            "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+            "recipe_estimate_id": "00000000-0000-4000-8000-000000000030",
+            "calculation_version": "calc-0.1",
+            "captured_at": "2026-11-16T10:00:00Z"
+          },
+          "version": 1,
+          "created_at": "2026-11-16T10:00:00Z",
+          "updated_at": "2026-11-16T10:00:00Z"
+        }
+      }
+    },
+    {
+      "name": "Normalizacja tylko do g/ml",
+      "schema": "RecipeIngredient",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000021",
+        "position": 1,
+        "name": "Przykładowy składnik",
+        "normalized_name": null,
+        "quantity": 100,
+        "unit": "g",
+        "normalized_quantity": 100,
+        "normalized_unit": "kg",
+        "conversion_basis": "Ilość źródłowa w gramach.",
+        "review_state": "matched"
+      }
+    },
+    {
+      "name": "Całkowicie puste granice nie filtrują jako range",
+      "schema": "NumberRange",
+      "valid": false,
+      "value": {
+        "min": null,
+        "max": null
+      }
+    },
+    {
+      "name": "Dolna granica zakresu może być nieznana",
+      "schema": "NumberRange",
+      "valid": true,
+      "value": {
+        "min": null,
+        "max": 600
+      }
+    },
+    {
+      "name": "Puste kryteria są dozwolone",
+      "schema": "SearchCriteria",
+      "valid": true,
+      "value": {}
+    },
+    {
+      "name": "Ręczne dane nie deklarują pochodzenia z bazy",
+      "schema": "DiaryCreate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000061",
+        "origin": "manual",
+        "local_date": "2026-11-16",
+        "display_name": "Produkt wpisany ręcznie",
+        "consumed_quantity": {
+          "amount": 75,
+          "unit": "g"
+        },
+        "nutrition_reference": {
+          "per_amount": 100,
+          "per_unit": "g",
+          "values": {
+            "kcal": 200,
+            "protein_g": 10,
+            "carbohydrate_g": 20,
+            "fat_g": 8
+          },
+          "source": {
+            "kind": "manual",
+            "url": null,
+            "provider": null,
+            "provider_product_id": null,
+            "retrieved_at": null,
+            "display_name": "Dane wpisane przez użytkownika"
+          }
+        }
+      }
+    },
+    {
+      "name": "Wynik częściowy wymaga ostrzeżenia",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "partial",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": null
+      }
+    },
+    {
+      "name": "Failed nie udaje dostępnych wyników",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "failed",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": {
+          "code": "VALIDATION_ERROR",
+          "message": "Popraw wskazane pola.",
+          "details": {
+            "field_errors": [
+              {
+                "field": "servings",
+                "code": "positive_required",
+                "message": "Liczba porcji musi być dodatnia."
+              }
+            ],
+            "resource_type": null,
+            "resource_id": null,
+            "current_version": null,
+            "current_estimate_id": null,
+            "deleted": false,
+            "retry_after_seconds": null
+          },
+          "request_id": "example-request-1"
+        }
+      }
+    },
+    {
+      "name": "Completed nie ma błędu wykonania",
+      "schema": "SearchPage",
+      "valid": false,
+      "value": {
+        "search_id": "00000000-0000-4000-8000-000000000040",
+        "status": "completed",
+        "created_at": "2026-11-16T10:00:00Z",
+        "deadline_at": "2026-11-16T10:05:00Z",
+        "finished_at": "2026-11-16T10:01:00Z",
+        "expires_at": "2026-12-16T10:01:00Z",
+        "results_revision": 1,
+        "results": [
+          {
+            "id": "00000000-0000-4000-8000-000000000041",
+            "position": 1,
+            "recipe": {
+              "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+              "title": "Przykładowe danie",
+              "kind": "source",
+              "visibility": "shared",
+              "source": {
+                "id": "00000000-0000-4000-8000-000000000019",
+                "url": "https://example.org/przepis",
+                "canonical_url": "https://example.org/przepis",
+                "domain": "example.org",
+                "retrieved_at": "2026-11-16T10:00:00Z"
+              },
+              "servings": 2,
+              "prep_time_minutes": 20,
+              "cook_time_minutes": 10,
+              "estimate_id": "00000000-0000-4000-8000-000000000030",
+              "estimate_per_serving": {
+                "values": {
+                  "kcal": 420,
+                  "protein_g": 24.5,
+                  "carbohydrate_g": null,
+                  "fat_g": 12
+                },
+                "completeness": {
+                  "overall": "partial",
+                  "kcal": "complete",
+                  "protein_g": "complete",
+                  "carbohydrate_g": "missing",
+                  "fat_g": "complete"
+                },
+                "missing": [
+                  {
+                    "field": "carbohydrate_g",
+                    "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                    "reason": "Brak wartości węglowodanów w źródle."
+                  }
+                ],
+                "sources": [
+                  {
+                    "kind": "nutrition_database",
+                    "url": "https://example.org/products/food-1",
+                    "provider": "example-provider",
+                    "provider_product_id": "food-1",
+                    "retrieved_at": "2026-11-16T10:00:00Z",
+                    "display_name": "Przykładowy produkt"
+                  }
+                ]
+              },
+              "match": {
+                "status": "unverified",
+                "reasons": [
+                  "Niepełne dane składników."
+                ],
+                "used_criteria": [
+                  "dish_name"
+                ],
+                "unmet_criteria": [],
+                "unverifiable_criteria": [
+                  "carbohydrate_g_per_serving"
+                ]
+              }
+            },
+            "warnings": []
+          }
+        ],
+        "next_cursor": null,
+        "warnings": [],
+        "error": {
+          "code": "VALIDATION_ERROR",
+          "message": "Popraw wskazane pola.",
+          "details": {
+            "field_errors": [
+              {
+                "field": "servings",
+                "code": "positive_required",
+                "message": "Liczba porcji musi być dodatnia."
+              }
+            ],
+            "resource_type": null,
+            "resource_id": null,
+            "current_version": null,
+            "current_estimate_id": null,
+            "deleted": false,
+            "retry_after_seconds": null
+          },
+          "request_id": "example-request-1"
+        }
+      }
+    },
+    {
+      "name": "Brak listy składników ma null",
+      "schema": "RecipeDetail",
+      "valid": false,
+      "value": {
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "title": "Przykładowe danie",
+        "kind": "source",
+        "visibility": "shared",
+        "source": {
+          "id": "00000000-0000-4000-8000-000000000019",
+          "url": "https://example.org/przepis",
+          "canonical_url": "https://example.org/przepis",
+          "domain": "example.org",
+          "retrieved_at": "2026-11-16T10:00:00Z"
+        },
+        "servings": 2,
+        "prep_time_minutes": 20,
+        "cook_time_minutes": 10,
+        "estimate_id": "00000000-0000-4000-8000-000000000030",
+        "estimate_per_serving": {
+          "values": {
+            "kcal": 420,
+            "protein_g": 24.5,
+            "carbohydrate_g": null,
+            "fat_g": 12
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ]
+        },
+        "match": {
+          "status": "unverified",
+          "reasons": [
+            "Niepełne dane składników."
+          ],
+          "used_criteria": [
+            "dish_name"
+          ],
+          "unmet_criteria": [],
+          "unverifiable_criteria": [
+            "carbohydrate_g_per_serving"
+          ]
+        },
+        "parent_version_id": null,
+        "total_mass_g": null,
+        "ingredients": [
+          {
+            "id": "00000000-0000-4000-8000-000000000021",
+            "position": 1,
+            "name": "Przykładowy składnik",
+            "normalized_name": null,
+            "quantity": 100,
+            "unit": "g",
+            "normalized_quantity": 100,
+            "normalized_unit": "g",
+            "conversion_basis": "Ilość źródłowa w gramach.",
+            "review_state": "matched"
+          }
+        ],
+        "ingredients_state": "missing",
+        "instructions": [
+          {
+            "position": 1,
+            "text": "Przykładowy krok demonstracyjny."
+          }
+        ],
+        "instructions_state": "complete",
+        "declared_nutrition": null,
+        "missing": [
+          {
+            "field": "carbohydrate_g",
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "reason": "Brak wartości węglowodanów w źródle."
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "name": "Brak ekstrakcji składników pozostaje jawny",
+      "schema": "RecipeDetail",
+      "valid": true,
+      "value": {
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "title": "Przykładowe danie",
+        "kind": "source",
+        "visibility": "shared",
+        "source": {
+          "id": "00000000-0000-4000-8000-000000000019",
+          "url": "https://example.org/przepis",
+          "canonical_url": "https://example.org/przepis",
+          "domain": "example.org",
+          "retrieved_at": "2026-11-16T10:00:00Z"
+        },
+        "servings": 2,
+        "prep_time_minutes": 20,
+        "cook_time_minutes": 10,
+        "estimate_id": "00000000-0000-4000-8000-000000000030",
+        "estimate_per_serving": {
+          "values": {
+            "kcal": 420,
+            "protein_g": 24.5,
+            "carbohydrate_g": null,
+            "fat_g": 12
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ]
+        },
+        "match": {
+          "status": "unverified",
+          "reasons": [
+            "Niepełne dane składników."
+          ],
+          "used_criteria": [
+            "dish_name"
+          ],
+          "unmet_criteria": [],
+          "unverifiable_criteria": [
+            "carbohydrate_g_per_serving"
+          ]
+        },
+        "parent_version_id": null,
+        "total_mass_g": null,
+        "ingredients": null,
+        "ingredients_state": "missing",
+        "instructions": [
+          {
+            "position": 1,
+            "text": "Przykładowy krok demonstracyjny."
+          }
+        ],
+        "instructions_state": "complete",
+        "declared_nutrition": null,
+        "missing": [
+          {
+            "field": "carbohydrate_g",
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "reason": "Brak wartości węglowodanów w źródle."
+          }
+        ],
+        "changes": []
+      }
+    },
+    {
+      "name": "Nieznane porcje wykluczają wynik na porcję",
+      "schema": "RecipeEstimate",
+      "valid": false,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000030",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "visibility": "shared",
+        "calculation_version": "calc-0.1",
+        "calculated_at": "2026-11-16T10:00:00Z",
+        "servings": null,
+        "total": {
+          "values": {
+            "kcal": 840,
+            "protein_g": 49,
+            "carbohydrate_g": null,
+            "fat_g": 24
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ]
+        },
+        "per_serving": {
+          "values": {
+            "kcal": 420,
+            "protein_g": 24.5,
+            "carbohydrate_g": null,
+            "fat_g": 12
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ]
+        },
+        "contributions": [
+          {
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "food_match_id": "00000000-0000-4000-8000-000000000023",
+            "nutrition_snapshot_id": "00000000-0000-4000-8000-000000000024",
+            "used_quantity": {
+              "amount": 100,
+              "unit": "g"
+            },
+            "conversion_basis": "Ilość źródłowa w gramach.",
+            "values": {
+              "kcal": 840,
+              "protein_g": 49,
+              "carbohydrate_g": null,
+              "fat_g": 24
+            },
+            "missing": [
+              {
+                "field": "carbohydrate_g",
+                "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                "reason": "Brak wartości węglowodanów w źródle."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Szacunek całości może nie mieć wartości na porcję",
+      "schema": "RecipeEstimate",
+      "valid": true,
+      "value": {
+        "id": "00000000-0000-4000-8000-000000000030",
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "visibility": "shared",
+        "calculation_version": "calc-0.1",
+        "calculated_at": "2026-11-16T10:00:00Z",
+        "servings": null,
+        "total": {
+          "values": {
+            "kcal": 840,
+            "protein_g": 49,
+            "carbohydrate_g": null,
+            "fat_g": 24
+          },
+          "completeness": {
+            "overall": "partial",
+            "kcal": "complete",
+            "protein_g": "complete",
+            "carbohydrate_g": "missing",
+            "fat_g": "complete"
+          },
+          "missing": [
+            {
+              "field": "carbohydrate_g",
+              "ingredient_id": "00000000-0000-4000-8000-000000000021",
+              "reason": "Brak wartości węglowodanów w źródle."
+            }
+          ],
+          "sources": [
+            {
+              "kind": "nutrition_database",
+              "url": "https://example.org/products/food-1",
+              "provider": "example-provider",
+              "provider_product_id": "food-1",
+              "retrieved_at": "2026-11-16T10:00:00Z",
+              "display_name": "Przykładowy produkt"
+            }
+          ]
+        },
+        "per_serving": null,
+        "contributions": [
+          {
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "food_match_id": "00000000-0000-4000-8000-000000000023",
+            "nutrition_snapshot_id": "00000000-0000-4000-8000-000000000024",
+            "used_quantity": {
+              "amount": 100,
+              "unit": "g"
+            },
+            "conversion_basis": "Ilość źródłowa w gramach.",
+            "values": {
+              "kcal": 840,
+              "protein_g": 49,
+              "carbohydrate_g": null,
+              "fat_g": 24
+            },
+            "missing": [
+              {
+                "field": "carbohydrate_g",
+                "ingredient_id": "00000000-0000-4000-8000-000000000021",
+                "reason": "Brak wartości węglowodanów w źródle."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Missing nie zamienia się w zero",
+      "schema": "EstimatedNutrition",
+      "valid": false,
+      "value": {
+        "values": {
+          "kcal": 420,
+          "protein_g": 24.5,
+          "carbohydrate_g": 0,
+          "fat_g": 12
+        },
+        "completeness": {
+          "overall": "partial",
+          "kcal": "complete",
+          "protein_g": "complete",
+          "carbohydrate_g": "missing",
+          "fat_g": "complete"
+        },
+        "missing": [
+          {
+            "field": "carbohydrate_g",
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "reason": "Brak wartości węglowodanów w źródle."
+          }
+        ],
+        "sources": [
+          {
+            "kind": "nutrition_database",
+            "url": "https://example.org/products/food-1",
+            "provider": "example-provider",
+            "provider_product_id": "food-1",
+            "retrieved_at": "2026-11-16T10:00:00Z",
+            "display_name": "Przykładowy produkt"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Complete wymaga znanej wartości",
+      "schema": "EstimatedNutrition",
+      "valid": false,
+      "value": {
+        "values": {
+          "kcal": null,
+          "protein_g": 24.5,
+          "carbohydrate_g": null,
+          "fat_g": 12
+        },
+        "completeness": {
+          "overall": "partial",
+          "kcal": "complete",
+          "protein_g": "complete",
+          "carbohydrate_g": "missing",
+          "fat_g": "complete"
+        },
+        "missing": [
+          {
+            "field": "carbohydrate_g",
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "reason": "Brak wartości węglowodanów w źródle."
+          }
+        ],
+        "sources": [
+          {
+            "kind": "nutrition_database",
+            "url": "https://example.org/products/food-1",
+            "provider": "example-provider",
+            "provider_product_id": "food-1",
+            "retrieved_at": "2026-11-16T10:00:00Z",
+            "display_name": "Przykładowy produkt"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stan łączny nie ukrywa brakującego makro",
+      "schema": "EstimatedNutrition",
+      "valid": false,
+      "value": {
+        "values": {
+          "kcal": 420,
+          "protein_g": 24.5,
+          "carbohydrate_g": null,
+          "fat_g": 12
+        },
+        "completeness": {
+          "overall": "complete",
+          "kcal": "complete",
+          "protein_g": "complete",
+          "carbohydrate_g": "missing",
+          "fat_g": "complete"
+        },
+        "missing": [
+          {
+            "field": "carbohydrate_g",
+            "ingredient_id": "00000000-0000-4000-8000-000000000021",
+            "reason": "Brak wartości węglowodanów w źródle."
+          }
+        ],
+        "sources": [
+          {
+            "kind": "nutrition_database",
+            "url": "https://example.org/products/food-1",
+            "provider": "example-provider",
+            "provider_product_id": "food-1",
+            "retrieved_at": "2026-11-16T10:00:00Z",
+            "display_name": "Przykładowy produkt"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zmiana przepisu w planie wymaga jawnego wyboru szacunku",
+      "schema": "PlanPatch",
+      "valid": false,
+      "value": {
+        "version": 1,
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020"
+      }
+    },
+    {
+      "name": "Zmiana przepisu z jawnym brakiem szacunku",
+      "schema": "PlanPatch",
+      "valid": true,
+      "value": {
+        "version": 1,
+        "recipe_version_id": "00000000-0000-4000-8000-000000000020",
+        "recipe_estimate_id": null
+      }
+    }
+  ]
+}
